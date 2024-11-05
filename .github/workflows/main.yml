@@ -21,7 +21,7 @@ jobs:
 
     # Paso 2: Cambiar a la rama 'test'
     - name: Checkout test branch
-      run: git checkout test
+      run: git checkout Test
 
     # Paso 3: Configurar JDK 17
     - name: Set up JDK 17
