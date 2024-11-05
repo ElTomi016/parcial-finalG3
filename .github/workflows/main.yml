@@ -34,7 +34,3 @@ jobs:
     # Paso 4: Construir y ejecutar pruebas con Maven
     - name: Build and Test with Maven
       run: mvn -B package --file pom.xml
-
-    # Paso 5: Ejecutar pruebas unitarias
-    - name: Run Tests
-      run: mvn test
