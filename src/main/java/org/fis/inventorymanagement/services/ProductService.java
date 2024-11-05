@@ -52,4 +52,8 @@ public class ProductService {
     public void deleteproduct(int id) {
         products.removeIf(product -> product.getId() == id);
     }
+public Product createSale(Product sale) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'createSale'");
+}
 }
